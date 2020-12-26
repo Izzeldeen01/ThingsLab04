@@ -1,28 +1,18 @@
-var thing;
+var username; 
 
- thing = prompt('pleas inter what you are searching for');
+username = prompt ('pleas inter your name'); 
 
+document.write ('visitor name: '+username);
 
- while ((thing !=='cars') && (thing !=='food') && (thing !=='tools')) {
-console.log(thing)
-    thing = prompt ('pleas state what you need (cars,food,tools)');
- }
+var time; 
 
- var x = prompt ('how many items do you need'); 
+time=prompt ('what time is it?')
 
- if (thing=== 'cars'){
-     for (var i=1;i<=x ;i++){
-         document.write(i + '<img src="download.jpg">'); 
-  
-     }
- }
- if (thing === 'food'){
-     for (var i=1;i<=x;i++){
-         document.write(i+ '<img src="food.jpg">');
-     }
- }
- if (thing==='tools'){
-     for (var i=1;i<=x;i++){
-         document.write(i + '<img src="tools.jpg">');
-     }
- }
+if (time<12){
+    document.write('AM');
+
+}
+else {
+    document.write('PM'); 
+}
+ 
