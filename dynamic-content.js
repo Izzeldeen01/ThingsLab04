@@ -9,7 +9,7 @@ var time;
 time=prompt ('what time is it?')
 
 if (time<12){
-    document.write('AM');
+    document.write( 'AM');
 
 }
 else {
