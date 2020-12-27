@@ -1,23 +1,26 @@
-.head {
+#head {
 color : red ; 
-float: right;
+float: left;
 }
 
 .list {
 float: right ;
-display: inline block;
-padding: 5px solid;
-border: 3ps;
+display: inline;
+padding: 5px ;
+border: 3px  solid ;
 
 }
 #suptitle {
     color: white;
-    float: right;
+    float: left;
     background-color: black;
+    padding: 10px ;
+    border : 3px solid ;
 
 }
 .contact {
-    display: inline block ;
-    padding: 20px solid;
-    border : 5px; 
+    color: yellow;
+    display: inline;
+    padding: 10px ;
+    border : 2px solid; 
 }
