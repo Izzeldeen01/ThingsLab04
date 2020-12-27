@@ -1,9 +1,13 @@
-var thing; 
+var thing = display ();  
 
+
+function display (){
 thing = prompt ('insert what you are looking for'); 
 
 while (thing !=='cars' && thing !=='food' && thing !=='tools'){
     thing = prompt ('pleas inter what you need cars,food,tools'); 
+}
+return thing;
 }
 var x=prompt ('how many item do you need?');
 
