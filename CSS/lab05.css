@@ -1,0 +1,23 @@
+.head {
+color : red ; 
+float: right;
+}
+
+.list {
+float: right ;
+display: inline block;
+padding: 5px solid;
+border: 3ps;
+
+}
+#suptitle {
+    color: white;
+    float: right;
+    background-color: black;
+
+}
+.contact {
+    display: inline block ;
+    padding: 20px solid;
+    border : 5px; 
+}
